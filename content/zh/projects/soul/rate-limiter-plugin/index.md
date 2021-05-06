@@ -82,7 +82,7 @@ description: rateLimiter插件
 
 algorithmName（算法名）：tocketBucket/concurrent
 
-replenishRate（速率）：是你允许用户每秒执行多少请求，而丢弃任何请求。这是令牌桶的填充速率。
+replenishRate（速率）：是你允许用户每秒执行多少请求，同时不丢弃任何请求。这是令牌桶的填充速率。
 
 burstCapacity（容量）：是允许用户在一秒钟内执行的最大请求数。这是令牌桶可以保存的令牌数。
 
